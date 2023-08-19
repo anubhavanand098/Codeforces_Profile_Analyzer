@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+    <link rel="stylesheet" type="text/css" href="options.css">
+</head>
+<body>
+    <div class="body-container">
+        <div style="text-align:center">
+            <form>
+                <div class="flex-container margin10">
+                    <div class="col3">
+                        <input id="handleEntry" type="text" name="search" placeholder="Handle..." style="text-align:center">
+                    </div>
+                    <div class="col1">
+                        <input id="handleSubmit" onclick="constructProfile(e)" type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="flex-container">
+            <div id="profileDiv" class="col1">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="options.js"></script>
+</html>
